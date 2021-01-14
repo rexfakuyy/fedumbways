@@ -1,6 +1,6 @@
 FROM node:10
 WORKDIR /app
 COPY . .
-RUN install pm2 -g && npm install
+RUN npm install
 EXPOSE 3000
-CMD ["node", "index.js"]
+CMD ["npm", "start"]

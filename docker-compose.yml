@@ -1,6 +1,6 @@
 version: '3.8'
 services:
-        housy-backend:
+        housy-frontend:
                 container_name: frontend-housy
                 image: reckyprmn/housyfrontend:2
                 stdin_open: true
